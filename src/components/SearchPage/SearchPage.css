@@ -1,0 +1,172 @@
+.search .react-autosuggest__container {
+    position: relative;
+    margin-right: -20px; }
+  
+  .search .react-autosuggest__input {
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px solid #aaa;
+    border-radius: 4px; }
+  
+  .search .react-autosuggest__input--focused {
+    outline: none; }
+  
+  .search .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; }
+  
+  .search .react-autosuggest__suggestions-container {
+    display: none; }
+  
+  .search .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    max-height: 300px;
+    overflow: auto; }
+  
+  .search .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  
+  .search .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px; }
+    .search .react-autosuggest__suggestion mark {
+      padding: 0 !important;
+      background-color: #FFFF99; }
+  
+  .search .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd; }
+  
+  .search .btn {
+    background-color: #394048;
+    height: 100%;
+    margin-left: -15px; }
+  
+  .SearchResult .Ribbon {
+    margin-bottom: 20px; }
+    .SearchResult .Ribbon .ribbon-content {
+      padding: 5px 10px !important; }
+    .SearchResult .Ribbon .ribbon {
+      padding: 5px 1em !important;
+      background-color: #17a2b8 !important; }
+    .SearchResult .Ribbon .mt-element-ribbon {
+      margin-bottom: 0px !important;
+      border-radius: 0.25rem; }
+  
+  .SearchResult .emptyData {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px !important; }
+  
+  .SearchResult .loader {
+    margin-left: 40%;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    z-index: 9999;
+    color: blue; }
+  
+  .SearchResult .ch_pagination {
+    float: right; }
+  
+  .SearchResult .bordered {
+    overflow-x: hidden;
+    padding: 10px; }
+    .SearchResult .bordered .row {
+      padding: 0 10px; }
+      .SearchResult .bordered .row .nav-tabs {
+        width: 100%; }
+        .SearchResult .bordered .row .nav-tabs li {
+          width: 50%;
+          padding: 5px 10px; }
+          .SearchResult .bordered .row .nav-tabs li a:hover {
+            cursor: pointer; }
+        .SearchResult .bordered .row .nav-tabs .active {
+          background: #007bff;
+          color: #fff;
+          font-weight: bold; }
+    .SearchResult .bordered .filterdata {
+      padding: 10px;
+      font-size: 15px; }
+      .SearchResult .bordered .filterdata .searchBox {
+        width: 100% !important;
+        padding: 10px !important; }
+      .SearchResult .bordered .filterdata .filterGroup {
+        width: 100%;
+        padding: 10px; }
+        .SearchResult .bordered .filterdata .filterGroup .heading {
+          font-size: 15px;
+          font-weight: bold; }
+        .SearchResult .bordered .filterdata .filterGroup .filters {
+          padding: 10px 0 0 10px; }
+  
+  .SearchResult .nav-tabs {
+    border-bottom: 1px solid #e0e0e0; }
+    .SearchResult .nav-tabs li {
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+      cursor: pointer;
+      text-align: center; }
+      .SearchResult .nav-tabs li.ch_active {
+        border-bottom: 2px solid #4286f4; }
+      .SearchResult .nav-tabs li a {
+        font-weight: bold; }
+  
+  .ch_pagination {
+    margin-bottom: 20px; }
+    .ch_pagination .pagination2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .ch_pagination .pagination2 li {
+        padding: 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-bottom: 3px; }
+        .ch_pagination .pagination2 li a {
+          text-decoration: none;
+          font-style: normal; }
+        .ch_pagination .pagination2 li.active {
+          border: 2px solid #32c5d2;
+          border-radius: 2px; }
+          .ch_pagination .pagination2 li.active a {
+            font-weight: bold;
+            color: #32c5d2; }
+      .ch_pagination .pagination2 li {
+        display: inline-block; }
+        .ch_pagination .pagination2 li a {
+          color: #212529;
+          outline: none; }
+  
+  .detailsTab {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    position: fixed;
+    margin-right: 20px;
+    overflow: hidden; }
+    .detailsTab .close-btn {
+      right: 19px;
+      top: -3px; }
+  

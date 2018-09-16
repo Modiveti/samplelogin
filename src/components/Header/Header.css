@@ -1,0 +1,12 @@
+.AppLogo {
+    height: 50px;
+    width: 60px;
+}
+
+.AppTitle {
+    color: white;
+    font-weight: 900;
+    top: 50%;
+    left: 60%;
+    margin-bottom: -21px;
+}

@@ -1,0 +1,8 @@
+.BreadcrumbBuilder .breadcrumb {
+  background-color: #eeee;
+}
+
+.BreadcrumbBuilder .home-img {
+  height: 30px;
+  margin-top: -3px;
+}
